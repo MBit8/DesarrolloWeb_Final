@@ -1,0 +1,12 @@
+<svg width="306" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <title>Logo</title>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_9">
+   <polygon fill="#3f3f3f" id="svg_7" points="153.23406982421875,-0.0003814697265625 191.1156005859375,93.58979797363281 306.46826171875,95.60855102539062 214.5277099609375,155.46923828125 247.93798828125,250.30706787109375 153.23406982421875,193.7127685546875 58.53013610839844,250.30706787109375 91.94036865234375,155.46923828125 -0.0001220703125,95.60855102539062 115.3525390625,93.58979797363281 153.23406982421875,-0.0003814697265625 191.1156005859375,93.58979797363281 " stroke="#000000" stroke-width="0" transform="rotate(180, 153.234, 125.154)"/>
+   <text fill="#007fff" font-family="Sans-serif" font-size="36" font-weight="bold" id="svg_2" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(2.88947, 0, 0, 2.1758, -220.777, -140.488)" x="129.093398" xml:space="preserve" y="133.941695">MDM</text>
+  </g>
+ </g>
+</svg>
