@@ -1,3 +1,3 @@
 # FundamentosHTML_Final
 Evaluación Final del curso Fundamentos de HTML.<br/>
-Mantenido de modo generico para su uso público.
+Gran parte de la informacón escrita se encuentra viciada adrede para ser subida a GitHub.
