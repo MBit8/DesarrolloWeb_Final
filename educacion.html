@@ -1,32 +1,87 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <meta name="author" content="Marcos">
-    <meta name="keywords" content="CV, Hoja de Vida">
-    <meta name="description" content="Hoja de vida de Marcos">
-    <title>Hoja de Vida</title>
-  </head>
-  <body>
-    <header>
-     <img src="/Media/Logo.svg" title="Logo" width="200" height="100">
-     <h1>Hoja de Vida</h1>
-     <h2>Marcos Dario Marengo</h2>
-     <h3>30/09/96 Buenos Aires, Argentina</h3>
-     <nav>
-       <a href="index.html">Inicio</a>
-       <a href="educacion.html">Educación</a>
-       <a href="experiencia.html">Experiencia</a>
-     </nav>
-    </header>
 
-    <h2>Educación</h2>
-    <!-- Insertar Tabla -->
-    <!-- Insertar Formulario -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="author" content="Marcos">
+  <meta name="keywords" content="CV, Hoja de Vida">
+  <meta name="description" content="Hoja de vida de Marcos">
+  <title>Hoja de Vida</title>
+</head>
 
-    <footer>
-      <p>correo@mail.com.ar | +54-11-615243 | Buenos Aires, Argentina</p>
-    </footer>
-  </body>
+<body>
+  <header>
+    <img src="/Media/Logo.svg" title="Logo" alt="Logo" width="200" height="100">
+    <h1>Hoja de Vida</h1>
+    <h2>Marcos Dario Marengo</h2>
+    <h3>30/09/96 Buenos Aires, Argentina</h3>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+  </header>
+
+  <h2>Educación</h2>
+  <table border="1">
+    <tr>
+      <td>Año</td>
+      <td>Institución</td>
+      <td>Lugar</td>
+      <td>¿Culminó?</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Curso de Programación</td>
+      <td>Buenos Aires</td>
+      <td>Si</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Colegio Secundario</td>
+      <td>Buenos Aires</td>
+      <td>Si</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>Universidad Tecnológica</td>
+      <td>Buenos Aires</td>
+      <td>No</td>
+    </tr>
+  </table>
+
+  <form name="Agregar Estudios">
+    <fieldset>
+      <legend>
+        <h2>Agregar Estudios</h2>
+      </legend>
+      <p>
+        <label for="Año">Año:</label>
+        <select>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+        </select>
+      </p>
+      <p>
+        <label for="Institucion">Institución:</label>
+        <input type="text" required><br />
+      </p>
+      <p>
+        <label for="Lugar">Lugar:</label>
+        <input type="text" style="width: 200px; height: 20px">
+      </p>
+      <p>
+        <input type="submit">
+      </p>
+    </fieldset>
+  </form>
+
+  <footer>
+    <p>correo@mail.com.ar | +54-11-615243 | Buenos Aires, Argentina</p>
+  </footer>
+</body>
+
 </html>
