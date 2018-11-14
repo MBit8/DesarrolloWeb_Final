@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <img src="/Media/Logo.svg" title="Logo" alt="Logo" width="200" height="100">
+    <img src="Media/Logo.svg" title="Logo" alt="Logo" width="200" height="100">
     <h1>Hoja de Vida</h1>
     <h2>Marcos Dario Marengo</h2>
     <h3>30/09/96 Buenos Aires, Argentina</h3>
@@ -25,9 +25,13 @@
 
   <h2>Experiencia</h2>
   <h3>Video de Ejemplo</h3>
-  <video src="/media/VideoExperiencia.mp4" type="video/mp4" controls preload="auto" title="Video sobre mi Experiencia" poster="posterimage.png"></video>
+  <video width="330" height="250" controls preload="auto" title="Video sobre mi Experiencia" poster="posterimage.png">
+    <source src="Media/VideoExperiencia.mp4" type="video/mp4">
+  </video>
   <h3>Audio de Ejemplo</h3>
-  <audio src="/media/Sunshine_in_My_Heart.mp3" controls preload="auto" title="Sunshine in My Hearts - Jingle Punks"></audio>
+  <audio controls preload="auto" title="Sunshine in My Hearts - Jingle Punks">
+    <source src="Media/Sunshine_in_My_Heart.mp3" type="audio/mpeg">
+  </audio>
   <!--Música de Uso Libre-->
 
   <footer>
